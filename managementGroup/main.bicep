@@ -10,6 +10,7 @@ param allowedLocations array = [
   'centralindia'
 ]
 
+//here is a comment 
 var mgScope = tenantResourceId('Microsoft.Management/managementGroups', targetMG)
 var policyDefinitionName = 'LocationRestriction'
 
